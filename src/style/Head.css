@@ -1,0 +1,29 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.container {
+  display: flex;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Add spacing between elements */
+}
+
+.RText label {
+  margin-right: 5px; /* Add spacing between labels and icons */
+}
+
+.RText span {
+  margin-left: 5px; /* Add spacing between icons */
+}
